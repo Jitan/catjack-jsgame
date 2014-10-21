@@ -1,6 +1,7 @@
 body {
 	background-color: #557F2C;
 }
+
 #window {
 	padding: 33px;
 	background-color: #557F2C;
@@ -28,6 +29,7 @@ body {
 	width: 100%;
 	margin: 33px;
 }
+
 #scoreboard {
 	text-align: left;
 	width: 222px;
@@ -43,11 +45,11 @@ body {
 	border: 1px solid #2A4016;
 
 }
+
 #message-area p{
 	padding: 10px;
 	padding-bottom: 0px;
 }
-
 
 button {
   display: inline-block;
@@ -115,6 +117,7 @@ button {
 	-webkit-animation: tilt-grayscale 1s 1 forwards;
 	        animation: tilt-grayscale 1s 1 forwards;
 }
+
 @-webkit-keyframes tilt-grayscale{
 	0%{
 	-webkit-transform: 	rotate(0deg);
@@ -149,6 +152,7 @@ button {
 	-webkit-animation: spin 5s linear infinite;
 	        animation: spin 5s linear infinite;
 }
+
 @-webkit-keyframes spin{
 	0%{
 	-webkit-transform: 	rotate(0deg);
@@ -202,18 +206,22 @@ h1 {
 	text-align: center;
 	font-style: italic;
 }
+
 ul {
 	margin: 0px;
 	padding: 0px;
 	list-style-type: none;
 }
+
 dl dd, dl dt {
 	display: inline;
 }
+
 dl dt {
 	clear:left;
 	float: left;
 }
+
 dl dd {
 	margin-left: 10px;
 	float: left;
@@ -227,6 +235,7 @@ dl dd {
 	margin: 20px;
 	margin-right: 0px;
 }
+
 .card-back{
 	display: inline-block;
 	width: 64px;
