@@ -4,7 +4,7 @@
 // CatJack v0.2
 //
 // Group assignment in Web Technology course.
-// Final refactoring done by me, Jitan.
+// Final refactoring done by Jitan.
 // Contact - jitan.elis@gmail.com
 //
 // JS Project @ YHC3L School 2014
