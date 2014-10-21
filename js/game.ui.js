@@ -1,9 +1,9 @@
 'use strict';
 game.ui = (function () {
+
 	/* * * * * *
 	 * Private *
 	 * * * * * */
-
 	// The middle text box area.
 	var showMessage = function (message) {
 		$('#message-area p').text(message);

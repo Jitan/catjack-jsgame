@@ -3,6 +3,7 @@
 // Constructor function to get a deck of cards for the game.
 // Returns shuffled array with the specified number of cards (52 cards in a deck).
 game.createDeck = function (numberOfDecks) {
+
 	/* * * * * *
 	 * Private *
 	 * * * * * */
@@ -11,8 +12,10 @@ game.createDeck = function (numberOfDecks) {
 	shuffle();
 
 	function getCards() {
-		var ranks = ['2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K', 'A'];
-		var suits = ['H', 'S', 'C', 'D'];
+		var ranks = ['2', '3', '4', '5', '6', '7', '8', '9', '10',
+			'Jack', 'Queen', 'King', 'Ace'
+		];
+		var suits = ['Hearts', 'Spades', 'Clubs', 'Diamonds'];
 
 		function addCards() {
 			ranks.forEach(function (rank) {

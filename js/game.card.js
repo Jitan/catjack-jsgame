@@ -7,34 +7,13 @@ game.createCard = function (rank, suit) {
 	/* * * * * *
 	 * Private *
 	 * * * * * */
-	var stringLibrary = {
-		A: 'Ace',
-		K: 'King',
-		Q: 'Queen',
-		J: 'Jack',
-		H: 'Hearts',
-		S: 'Spades',
-		C: 'Clubs',
-		D: 'Diamonds'
-	};
-
 	var isRevealed = true,
-		rankString = getString(rank),
-		suitString = getString(suit),
 		value = getValue(),
 		url = getUrl();
 
-	function getString(key) {
-		if ($.isNumeric(key)) { // If we have a number just use it directly
-			return rank;
-		} else { // Otherwise return the correct string from library
-			return stringLibrary[key];
-		}
-	}
-
 	function getValue() {
 		// If it is a letter card return 11 or 10..
-		if (rank === 'A') {
+		if (rank === 'Ace') {
 			return 11;
 		} else if (!$.isNumeric(rank)) { // is not numeric
 			return 10;
@@ -44,7 +23,7 @@ game.createCard = function (rank, suit) {
 	}
 
 	function getUrl() { // For card image file
-		return 'img/cards/' + rankString + '_of_' + suitString + '.svg';
+		return 'img/cards/' + rank + '_of_' + suit + '.svg';
 	}
 
 	/* * * * * *
@@ -65,7 +44,7 @@ game.createCard = function (rank, suit) {
 		return value;
 	};
 	card.toString = function () { // Text representation of card, i.e. '9 of clubs'
-		return rankString + ' of ' + suitString;
+		return rank + ' of ' + suit;
 	};
 	return card;
 };

@@ -3,6 +3,7 @@
 // Constructor function to create a hand for either dealer or player.
 // Returns object with public functions.
 game.createHand = function () {
+
 	/* * * * * *
 	 * Private *
 	 * * * * * */
