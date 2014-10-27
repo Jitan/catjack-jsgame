@@ -1,4 +1,7 @@
 'use strict';
+
+// UI object that handles all display changes.
+// Returns object with public functions.
 game.ui = (function () {
 
 	/* * * * * *
