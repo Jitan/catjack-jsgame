@@ -1,6 +1,7 @@
 'use strict';
 
 // Main logic of the game is handled by the dealer.
+// Returns object with public functions.
 game.dealer = (function () {
 
 	/* * * * * *
