@@ -23,7 +23,7 @@ game.createCard = function (rank, suit) {
 	}
 
 	function getUrl() { // For card image file
-		return 'img/cards/' + rank + '_of_' + suit + '.svg';
+		return 'img/cards/' + rank.toLowerCase() + '_of_' + suit.toLowerCase() + '.svg';
 	}
 
 	/* * * * * *
