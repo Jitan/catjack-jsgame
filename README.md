@@ -1,5 +1,4 @@
 CatJack Blackjack 
-
 Uses: JavaScript, jQuery, HTML5, CSS3  
 
 A javascript game in the style of Black Jack.  
